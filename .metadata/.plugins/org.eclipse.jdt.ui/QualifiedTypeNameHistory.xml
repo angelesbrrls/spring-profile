@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.demo.profile.repository.UsuarioRepository"/>
+    <fullyQualifiedTypeName name="com.demo.profile.service.UsuarioService"/>
+    <fullyQualifiedTypeName name="com.demo.profile.model.Usuario"/>
+</qualifiedTypeNameHistroy>

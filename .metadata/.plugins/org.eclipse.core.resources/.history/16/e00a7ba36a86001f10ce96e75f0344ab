@@ -1,0 +1,5 @@
+package com.demo.profile.repository;
+
+public interface UsuarioRepository {
+
+}

@@ -1,0 +1,3 @@
+spring.application.name=demo-profile
+server.port=8080
+spring.profiles.active=prod

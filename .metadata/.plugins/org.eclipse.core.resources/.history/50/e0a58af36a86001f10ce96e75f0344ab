@@ -1,0 +1,5 @@
+package com.demo.profile.config;
+
+public class DatabaseConfig {
+
+}
