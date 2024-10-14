@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title th:text="${task.id != null} ? 'Editar Tarea' : 'Agregar Tarea'"></title>
+    <link rel="stylesheet" href="../assets/css/styles.css"/>
+</head>
+<body>
+    <h1 th:text="${task.id != null} ? 'Editar Tarea' : 'Agregar Tarea'"></h1>
+    <form th:action=" @{/tasks} " th:object="${task}" method="post">
+		<input type="hidden" th:field="*{id}"/>
+        <div>
+            <label>Título:</label>
+            <input type="text" th:field="*{title}" required/>
+        </div>
+        <div>
+            <label>Completada:</label>
+            <input type="checkbox" th:field="*{completed}"/>
+        </div>
+        <button type="submit">Guardar</button>
+    </form>
+    <a href="/tasks">Volver a la lista</a>
+</body>
+</html>
+s
