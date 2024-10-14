@@ -1931,3 +1931,6 @@
 2024-10-14 13:18:44,574 [Worker-110: Launching Executing install in _Users_selegna_Documents_workspace-sts_springboot-apps_demo-data] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/com.google.guava.failureaccess_1.0.2.jar
 2024-10-14 13:18:44,575 [Worker-110: Launching Executing install in _Users_selegna_Documents_workspace-sts_springboot-apps_demo-data] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/selegna/Documents/workspace-sts/springboot-apps/demo-data":
 2024-10-14 13:18:44,575 [Worker-110: Launching Executing install in _Users_selegna_Documents_workspace-sts_springboot-apps_demo-data] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2024-10-14 13:28:10,635 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-14 13:28:10,638 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 13:28:10,639 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/selegna/Documents/workspace-sts/springboot-apps/demo-data/src/test/resources

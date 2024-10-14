@@ -45,4 +45,9 @@ public class ProductoController {
         productoService.deleteProducto(id);
         return ResponseEntity.noContent().build();
     }
+    
+    /* Nota:
+     * El uso de Void en mayúscula es necesario en situaciones donde necesitamos trabajar con genéricos,
+     * ya que ResponseEntity es un tipo genérico que no admite el tipo primitivo void.
+    */
 }
